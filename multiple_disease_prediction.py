@@ -9,7 +9,7 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-diabetes_model=pickle.load(open('C:/Users/badri/OneDrive/Desktop/project-dp/diabetes_model.sav','rb'))
+diabetes_model=pickle.load(open('diabetes_model.sav','rb'))
 
 
 #side bar for navigate
@@ -58,4 +58,5 @@ if (selected=='diabetes prediction'):
     
     
     
+
     
